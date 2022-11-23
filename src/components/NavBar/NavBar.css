@@ -1,0 +1,31 @@
+.body{
+    background-color: black;
+}
+
+.prop{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+    color: white;
+}
+
+.navBar{
+    background-color: rgb(191, 44, 44);
+    border-bottom: solid 1px white;
+}
+
+.titulo{
+    color: black;
+    text-shadow: 0 0 0.2em rgb(41, 39, 39), 0 0 0.2em rgb(41, 39, 39), 0 0 0.2em rgb(41, 39, 39);
+    font-size: 30px !important;
+}
+
+.opcionesMenu:hover{
+    color: white !important;
+    border-bottom: 2px solid white;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    font-size: 20px;
+    padding-left: 10%;
+}

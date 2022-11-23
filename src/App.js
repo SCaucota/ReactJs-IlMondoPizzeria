@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/* import logo from './logo.svg'; */
 import './App.css';
 import "./components/NavBar/NavBar.css";
 import NavBar from './components/NavBar/NavBar';
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <NavBar />
-      <ItemListContainer name="Carlitos"/>
+      <ItemListContainer  nombre={"Carlitos"}/>
       </header>
     </div>
   );

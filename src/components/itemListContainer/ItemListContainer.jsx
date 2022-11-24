@@ -1,10 +1,10 @@
 import React from "react";
 import  PropTypes from "prop-types";
+import "./styles/ItemListContainer.css"
 
-const ItemListContainer = (prop) => {
-    const {nombre} = prop
+const ItemListContainer = ({nombre}) => {
     return(
-        <div className="prop">Hola, {nombre}, Bienvenido.</div>
+        <div className="prop">Hola {nombre}, Bienvenido.</div>
     );
 };
 
